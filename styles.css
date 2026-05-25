@@ -537,13 +537,14 @@ footer {
     padding: var(--space-4);
   }
   .hero {
-    height: 100svh;
-    min-height: 600px;
-    padding-top: 60px;
+    height: auto;
+    min-height: 90vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .hero-logo {
-    max-width: 85%;
-    margin-bottom: var(--space-4);
+    max-width: 100%;
+    margin-bottom: var(--space-2);
   }
   .hero h2 {
     font-size: 2rem;
