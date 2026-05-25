@@ -398,7 +398,7 @@ fieldset.form-group {
   font-size: 1.05rem;
 }
 
-.form-group input:not([type="radio"]),
+.form-group input:not([type="radio"]):not([type="checkbox"]),
 .form-group select,
 .form-group textarea {
   width: 100%;
@@ -412,7 +412,7 @@ fieldset.form-group {
   color: var(--text-primary);
 }
 
-.form-group input:not([type="radio"]):focus,
+.form-group input:not([type="radio"]):not([type="checkbox"]):focus,
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
