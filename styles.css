@@ -634,6 +634,7 @@ footer {
   white-space: normal;
   word-break: break-word;
   line-height: 1.4;
+  flex: 1;
 }
 
 .checkbox-input {
