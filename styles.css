@@ -629,7 +629,15 @@ footer {
   cursor: pointer;
 }
 
+.checkbox-label-wrapper span {
+  text-align: left;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
 .checkbox-input {
   width: auto;
   margin-top: 4px;
+  flex-shrink: 0;
 }
