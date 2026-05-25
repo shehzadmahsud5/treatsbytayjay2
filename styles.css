@@ -649,9 +649,8 @@ footer {
 .checkbox-label-wrapper span {
   text-align: left;
   white-space: normal;
-  word-break: break-word;
   line-height: 1.4;
-  flex: 1;
+  width: 100%;
 }
 
 .checkbox-input {
